@@ -4,7 +4,6 @@ def main():
     file_contents = open_file(path_to_file)
     word_count_in_file = count_words(file_contents)
 
-    # print(file_contents)
     print(f"There are {word_count_in_file:,} words in this book.")
 
 
